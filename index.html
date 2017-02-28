@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <title>Facebook LAL</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="jquery-ui.min.css" />
+
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="main_min.js"></script>
+  </head>
+  <body>
+    <form name="lal_form">
+      <h1>Facebook Lookalike Tool</h1>
+
+      <div class="contentform">
+
+        <div class="wrapper">
+
+          <div class="validation">
+            <div class="alert alert-danger">
+              <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+              Please ensure that you have filled in all information.
+            </div>
+          </div>
+
+          <div class="successResponse">
+            <div class="alert alert-success">
+              <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+              <div id="success-msg"></div>
+            </div>
+          </div>
+
+          <div class="errorResponse">
+            <div class="alert alert-danger">
+              <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+              <div id="error-msg"></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <p>Audience Name <span>*</span></p>
+            <input type="text" name="a_name" id="a_name" />
+          </div>
+
+          <div class="form-group">
+            <p>Audience ID <span>*</span></p>
+            <input type="text" name="a_id" id="a_id" />
+          </div>
+
+          <div class="form-group">
+            <p>Select a Country: <span>*</span></p>
+            <select class="form-control" id="country_dropdown">
+              <option value="" disabled selected style="display: none;">-- choose one --</option>
+              <option value="ID">Indonesia</option>
+              <option value="MY">Malaysia</option>
+              <option value="PH">Philippines</option>
+              <option value="SG">Singapore</option>
+              <option value="TH">Thailand</option>
+              <option value="VN">Vietnam</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <p>Select an Account: <span>*</span></p>
+            <select class="form-control" id="account_dropdown">
+              <option value="" disabled selected style="display: none;">-- choose one --</option>
+              <option value="country">Country</option>
+              <option value="regional">Regional</option>
+            </select>
+          </div>
+
+          <p>Lookalike: <label id="lal_value">20</label>%</p>
+          <div id="lal_slider"></div>
+
+        </div>
+
+      </div>
+      <button type="submit" class="submit-btn">Submit</button>
+
+    </form>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-71542236-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+  </body>
+</html>
