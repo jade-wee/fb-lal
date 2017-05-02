@@ -55,7 +55,11 @@ $(document).ready(function() {
       "PH": {"country": "act_286163198", "regional": "act_960709704017953"},
       "SG": {"country": "act_937391186349805", "regional": "act_936786009743656"},
       "TH": {"country": "act_1381390565431254", "regional": "act_960710254017898"},
-      "VN": {"country": "act_1375009352774405", "regional": "act_975723752516548"}
+      "VN": {"country": "act_1375009352774405", "regional": "act_975723752516548"},
+      "MY2": {"country": "act_1226314357457485"},
+      "SG2": {"country": "act_1214763765279211"},
+      "ID2": {"country": "act_1226315040790750"},
+      "MM2": {"country": "act_1294931020595818"}
     };
 
     var account_id = account_obj[$("#country_dropdown").val()][$("#account_dropdown").val()];
