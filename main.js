@@ -56,6 +56,7 @@ $(document).ready(function() {
       "SG": {"country": "act_937391186349805", "regional": "act_936786009743656"},
       "TH": {"country": "act_1381390565431254", "regional": "act_960710254017898"},
       "VN": {"country": "act_1375009352774405", "regional": "act_975723752516548"},
+      "MM": {"country": "act_1269417169813870", "regional": "act_1269412346481019"},
       "MY2": {"country": "act_1226314357457485"},
       "SG2": {"country": "act_1214763765279211"},
       "ID2": {"country": "act_1226315040790750"},
