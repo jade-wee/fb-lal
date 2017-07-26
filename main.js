@@ -57,10 +57,10 @@ $(document).ready(function() {
       "TH": {"country": "act_1381390565431254", "regional": "act_960710254017898"},
       "VN": {"country": "act_1375009352774405", "regional": "act_975723752516548"},
       "MM": {"country": "act_1269417169813870", "regional": "act_1269412346481019"},
-      "MY2": {"country": "act_1226314357457485"},
-      "SG2": {"country": "act_1214763765279211"},
-      "ID2": {"country": "act_1226315040790750"},
-      "MM2": {"country": "act_1294931020595818"}
+      "MY2": {"country": "act_1226314357457485", "regional": ""},
+      "SG2": {"country": "act_1214763765279211", "regional": ""},
+      "ID2": {"country": "act_1226315040790750", "regional": ""},
+      "MM2": {"country": "act_1294931020595818", "regional": ""}
     };
 
     var account_id = account_obj[$("#country_dropdown").val()][$("#account_dropdown").val()];
